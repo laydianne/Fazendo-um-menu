@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    height: auto;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #021e29;
+    display: block;
+    float: left;
+    position: relative;
+
+}
+
+.container{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    padding: 32px 0;
+    transition: .4s transform ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.logo img{
+    float: left;
+    padding: 0;
+    margin-left: -40px;
+    margin-top: 2px;
+    margin-bottom: 9px;
+}
+
+.logo h1{
+    color: #ffffff;
+    margin-top: -2px;
+}
+
+.logo h1 span{
+    color: #FF6A00;
+}
+header nav{
+    float: right;
+    margin-left: 30px;
+    padding: 32px 0;
+}
+
+header nav ul{
+    list-style: none;
+    /*padding: 32px 0;*/
+}
+
+header nav ul li{
+    display: inline;
+    padding: 32px;
+
+}
+
+header nav ul li a{
+    color: rgba(255, 255, 255, .5);
+    transition: .4s all ease-in-out;
+}
+
+
+header nav ul li a:hover{
+    font-size: 20px;
+    color:#ffffff;
+
+}
+
+header nav ul li .cor{
+    color:#ffffff;
+}
+header nav ul li .cor:hover{
+    color: rgba(255, 255, 255, .5);
+}
+
+header nav ul li a{
+    text-decoration: none;
+
+}
+
+header nav ul li .btnBuyNow{
+    padding: 6px 14px;
+    border: .2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    background-color: #021e29;
+    color: #ffffff;
+    transition: .4s all ease-in-out;
+}
+
+.btnBuyNow:hover{
+    color: #021e29;
+    background-color: #ffffff;
+    /*font-size: 15px;*/
+    transform: scale(1.2);
+    /*border: .2px solid #000000;*/
+
+}
+
+/*header hr{
+    width: 100%;
+
+    margin: -20px 0px 0px 0px;
+    float: left;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(222, 225, 227, 0.0) 5%, rgba(222, 225, 227, .3), rgba(222, 225, 227, 0.0) 95%);
+
+}*/
+
+.Line {
+    width: 100%;
+    height: 1px;
+    margin: -30px 0 0 0;
+    float: left;
+    background: linear-gradient(to right, rgba(222, 225, 227, 0.0) 5%, rgba(222, 225, 227, .3), rgba(222, 225, 227, 0.0) 95%);
+}
+
+
+/*.line{
+width: ;
+height: ;
+background: linear-gradient(to right rgba()0% black 50% rgba()100%);
+margin: 100px auto 0 auto;*/
